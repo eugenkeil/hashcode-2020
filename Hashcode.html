@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Los gehts!</title>
+    <meta content="">
+    <style>
+    .left {
+    float: left;
+    border: 5px solid blue;
+    padding: 10px;
+    }
+    .right {
+    float: left;
+    border: 5px solid green;
+    padding: 10px;
+    }
+    .bottom {
+    float: left;
+    border: 5px solid red;
+    padding-left: 20px;
+    }
+    </style>
+
+    <script src="parsing.js"></script>
+    <script type="text/javascript" src="solution.js"></script>
+  </head>
+
+  <body>
+  <h1>Suite for Google Hashcode</h1>
+
+    <section class="left">
+    <textarea id="code" rows="30" cols = "100"></textarea><br>
+    <button onClick="parseData()">Solve</button>
+    </section>
+
+    <section class="right">
+    <textarea id="ausgabe" rows="30" cols = "100"></textarea><br>
+    <p id="time"><p>
+    </section>
+  </body>
+</html>
